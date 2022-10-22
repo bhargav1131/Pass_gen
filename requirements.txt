@@ -1,0 +1,12 @@
+** REQUIREMENTS TO TEST THE PROGRAM
+
+1. pip install pyperclip(install pyperclip module).
+2. pip install tkinter(install tkinter toolkit).
+3. Python 3.8.10 interpreter recommended for error free experience.
+
+
+$ Stay updated. This version is only for testing purposes. More features and UI enhancements are to be 
+ blended soon. Feel free to contribute to our FOSS password generator Application.
+
+_________________________________________
+$ Thank you for using our application _/\_
