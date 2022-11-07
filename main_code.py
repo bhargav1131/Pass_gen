@@ -16,7 +16,11 @@ pass_len = IntVar()
 pass_len.set(0)
 root.title("Pass-Buildozer")
 
+<<<<<<< HEAD
 backg = PhotoImage(file="Android Large - 1.png")
+=======
+backg = PhotoImage(file="/home/bhargav/My_projects/Pass_gen_app/Android Large - 1.png")
+>>>>>>> optimised !
 label1 = Label(image=backg)
 label1.image = backg
 label1.pack()
@@ -57,12 +61,20 @@ Entry(root, textvariable=pass_len, bd=0, width=30, border=2).place(x=28, y=350)
 Entry(root, textvariable=passwrd, bd=0, width=30, border=2).place(x=28, y=440)
 
 # generate button
+<<<<<<< HEAD
 gen_img = PhotoImage(file="generate.png")
+=======
+gen_img = PhotoImage(file="/home/bhargav/My_projects/Pass_gen_app/generate.png")
+>>>>>>> optimised !
 gen = Button(root, image=gen_img, bd=0, command=generate, bg="white", font=("MS Serif", 18, "bold"))
 gen.place(x=115, y=660)
 
 # copy button
+<<<<<<< HEAD
 copy_img = PhotoImage(file="copy.png")
+=======
+copy_img = PhotoImage(file="/home/bhargav/My_projects/Pass_gen_app/copy.png")
+>>>>>>> optimised !
 copy = Button(root, image=copy_img, bd=0, command=copyclipboard, bg="white", font=("MS Serif", 18, "bold"))
 copy.place(x=115, y=730)
 
